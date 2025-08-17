@@ -1,0 +1,205 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/ai-advice",
+      "regex": "^/ai\\-advice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ai\\-advice(?:/)?$"
+    },
+    {
+      "page": "/cancel",
+      "regex": "^/cancel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cancel(?:/)?$"
+    },
+    {
+      "page": "/chiffre-affaires",
+      "regex": "^/chiffre\\-affaires(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiffre\\-affaires(?:/)?$"
+    },
+    {
+      "page": "/complete-registration",
+      "regex": "^/complete\\-registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/complete\\-registration(?:/)?$"
+    },
+    {
+      "page": "/creation",
+      "regex": "^/creation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/creation(?:/)?$"
+    },
+    {
+      "page": "/demo",
+      "regex": "^/demo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo(?:/)?$"
+    },
+    {
+      "page": "/demo/ai-advice",
+      "regex": "^/demo/ai\\-advice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/ai\\-advice(?:/)?$"
+    },
+    {
+      "page": "/demo/chiffre-affaires",
+      "regex": "^/demo/chiffre\\-affaires(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/chiffre\\-affaires(?:/)?$"
+    },
+    {
+      "page": "/demo/creation",
+      "regex": "^/demo/creation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/creation(?:/)?$"
+    },
+    {
+      "page": "/demo/difficultes",
+      "regex": "^/demo/difficultes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/difficultes(?:/)?$"
+    },
+    {
+      "page": "/demo/gestion",
+      "regex": "^/demo/gestion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/gestion(?:/)?$"
+    },
+    {
+      "page": "/demo/investissement",
+      "regex": "^/demo/investissement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/investissement(?:/)?$"
+    },
+    {
+      "page": "/demo/management",
+      "regex": "^/demo/management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/management(?:/)?$"
+    },
+    {
+      "page": "/demo/pilotage",
+      "regex": "^/demo/pilotage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo/pilotage(?:/)?$"
+    },
+    {
+      "page": "/difficultes",
+      "regex": "^/difficultes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/difficultes(?:/)?$"
+    },
+    {
+      "page": "/gestion",
+      "regex": "^/gestion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gestion(?:/)?$"
+    },
+    {
+      "page": "/guide",
+      "regex": "^/guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guide(?:/)?$"
+    },
+    {
+      "page": "/investissement",
+      "regex": "^/investissement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/investissement(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/management",
+      "regex": "^/management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management(?:/)?$"
+    },
+    {
+      "page": "/pilotage",
+      "regex": "^/pilotage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pilotage(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/pricing-stripe",
+      "regex": "^/pricing\\-stripe(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing\\-stripe(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
+    },
+    {
+      "page": "/success",
+      "regex": "^/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/success(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
